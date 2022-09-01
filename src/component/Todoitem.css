@@ -1,0 +1,23 @@
+.todoItem{
+    border: 1px solid #eee;
+    display: flex;
+    line-height: 3;
+    padding: 0 30px;
+    /* border-radius: 30px; */
+    margin-top:10px;
+    cursor: pointer;
+    background-color: #d5b1df;
+}
+.remove{
+    margin-right:20px;
+    color:aqua;
+    font-weight: bold;
+    opacity:0;
+}
+.todoItem:hover .remove{
+    opacity: 1;
+}
+.checked{
+    text-decoration: line-through;
+    color:#ccc;
+}
